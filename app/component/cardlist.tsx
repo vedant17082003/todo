@@ -12,7 +12,6 @@ const Card: React.FC<CardProps> = ({ image, title, description }) => (
     <div className="bg-white shadow-md rounded-lg p-6 text-center max-w-xs">
         <div className="flex justify-center mb-4">
             <div className="bg-white rounded-full p-4 shadow-md">
-                {/* Using Next.js 'Image' component */}
                 <Image src={image} alt={title} className="w-16 h-16" />
             </div>
         </div>

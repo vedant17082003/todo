@@ -13,6 +13,15 @@ module.exports = {
   darkMode: "class", // Keeping dark mode as class-based
   theme: {
     extend: {
+      animation: {
+        move: "move 5s linear infinite",
+      },
+      keyframes: {
+        move: {
+          "0%": { transform: "translateX(-200px)" },
+          "100%": { transform: "translateX(200px)" },
+        },
+      },
       colors: {
         background: "var(--background)",  // Next.js specific color vars
         foreground: "var(--foreground)",

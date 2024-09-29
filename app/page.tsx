@@ -3,7 +3,7 @@ import Hero from "./component/Hero";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      <Navbar loginText="Log In" signupText="Start for Free" />
       <Hero />
 
     </div>

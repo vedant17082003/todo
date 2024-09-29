@@ -1,14 +1,18 @@
-// components/Navbar.js
 'use client';
 
 import Link from 'next/link';
 import { FaChevronDown } from 'react-icons/fa'; // Import the down arrow icon
 import { useState } from 'react';
 import Image from 'next/image';
+import logo from "/app/logo.png";
 
-import logo from "/app/logo.png"
+type NavbarProps = {
+    loginText: string;
+    signupText: string;
 
-const Navbar = () => {
+};
+
+const Navbar: React.FC<NavbarProps> = ({ loginText, signupText }) => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
 
     return (
@@ -17,10 +21,10 @@ const Navbar = () => {
             <div className="text-2xl font-bold">
                 <Link href="/">
                     <Image
-                        src={logo}// Replace with your image path
+                        src={logo} // Replace with your image path
                         alt="YourLogo"
                         width={50} // Adjust width as needed
-                        height={50}  // Adjust height as needed
+                        height={50} // Adjust height as needed
                     />
                 </Link>
             </div>
@@ -85,7 +89,6 @@ const Navbar = () => {
                                 </li>
                             </ul>
                         </div>
-
                     )}
                 </div>
                 <Link href="/pricing">
@@ -95,12 +98,13 @@ const Navbar = () => {
                 {/* Right side with login and signup */}
                 <div className="flex items-center gap-4">
                     <Link href="/login">
-                        <span className="text-orange-500 hover:underline">Log In</span>
+                        <span className="text-orange-500 hover:underline">{loginText}</span>
                     </Link>
                     <Link href="/signup">
-                        <span className="bg-orange-600 text-white py-2 px-4 rounded hover:bg-orange-500">Start for Free</span>
+                        <span className="bg-orange-600 text-white py-2 px-4 rounded hover:bg-orange-500">{signupText}</span>
                     </Link>
-                </div></div>
+                </div>
+            </div>
         </nav>
     );
 };

@@ -73,10 +73,10 @@ const Hero = () => {
             <div className=' flex items-center justify-center px-20 mt-16 shadow-current-orange-500'>
 
                 <Image
-                    src={image4}// Replace with your image path
+                    src={image4}
                     alt="YourLogo"
-                    width={800} // Adjust width as needed
-                    height={800}  // Adjust height as needed
+                    width={800}
+                    height={800}
                 />
             </div>
             <div className='flex flex-col items-center justify-center mt-4 text-center'>
