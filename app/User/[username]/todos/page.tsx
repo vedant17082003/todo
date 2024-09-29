@@ -12,17 +12,17 @@ type Todo = {
 };
 
 const TodosPage = () => {
-    const { username } = useParams(); // Extract username from the URL
+    const { username } = useParams();
     const [todos, setTodos] = useState<Todo[]>([]);
     const [newTodo, setNewTodo] = useState<string>("");
-    const [page, setPage] = useState(1); // New state for pagination
-    const [loading, setLoading] = useState(true); // Loading state
-    const [hasMore, setHasMore] = useState(true); // Track if more todos are available
+    const [page, setPage] = useState(1);
+    const [loading, setLoading] = useState(true);
+    const [hasMore, setHasMore] = useState(true);
 
-    // Fetch todos when the component mounts or page changes
+
     useEffect(() => {
         const fetchTodos = async () => {
-            if (!hasMore) return; // Don't fetch if no more todos are available
+            if (!hasMore) return;
 
             try {
                 const res = await fetch(`http://localhost:8000/todos?username=${username}&_page=${page}&_limit=10`);
@@ -48,7 +48,7 @@ const TodosPage = () => {
     // Add a new todo
     const addTodo = () => {
         const todo = {
-            username, // Use the username for todos
+            username,
             title: newTodo,
             completed: false,
         };
@@ -62,7 +62,7 @@ const TodosPage = () => {
         })
             .then((response) => response.json())
             .then((data) => {
-                setTodos([...todos, data]); // Add the new todo to the existing list
+                setTodos([...todos, data]);
                 toast.success("Todo added successfully!");
                 setNewTodo(""); // Reset the new todo input field
             })
@@ -109,7 +109,7 @@ const TodosPage = () => {
     // Handle infinite scrolling
     const handleScroll = () => {
         if (window.innerHeight + document.documentElement.scrollTop + 1 >= document.documentElement.scrollHeight) {
-            if (!loading && hasMore) { // Fetch more todos if not loading and more todos are available
+            if (!loading && hasMore) {
                 setLoading(true);
                 setPage((prev) => prev + 1);
             }
