@@ -1,0 +1,264 @@
+{
+  "users": [
+    {
+      "name": "Pravin Kasat",
+      "username": "Anurag",
+      "phoneNumber": "8830303978",
+      "email": "vedukasat17@gmail.com",
+      "address": "Pragati Hostel, Dehu Phata, Alandi, Maharashtra, India",
+      "password": "1234567",
+      "id": 1
+    },
+    {
+      "name": "User 2",
+      "username": "user2",
+      "phoneNumber": "8830303979",
+      "email": "user2@example.com",
+      "address": "Address 2, City, State",
+      "password": "1234567",
+      "id": 2
+    },
+    {
+      "name": "User 3",
+      "username": "user3",
+      "phoneNumber": "8830303980",
+      "email": "user3@example.com",
+      "address": "Address 3, City, State",
+      "password": "1234567",
+      "id": 3
+    },
+    {
+      "name": "User 4",
+      "username": "user4",
+      "phoneNumber": "8830303981",
+      "email": "user4@example.com",
+      "address": "Address 4, City, State",
+      "password": "1234567",
+      "id": 4
+    },
+    {
+      "name": "User 5",
+      "username": "user5",
+      "phoneNumber": "8830303982",
+      "email": "user5@example.com",
+      "address": "Address 5, City, State",
+      "password": "1234567",
+      "id": 5
+    },
+    {
+      "name": "User 6",
+      "username": "user6",
+      "phoneNumber": "8830303983",
+      "email": "user6@example.com",
+      "address": "Address 6, City, State",
+      "password": "1234567",
+      "id": 6
+    },
+    {
+      "name": "User 7",
+      "username": "user7",
+      "phoneNumber": "8830303984",
+      "email": "user7@example.com",
+      "address": "Address 7, City, State",
+      "password": "1234567",
+      "id": 7
+    },
+    {
+      "name": "User 8",
+      "username": "user8",
+      "phoneNumber": "8830303985",
+      "email": "user8@example.com",
+      "address": "Address 8, City, State",
+      "password": "1234567",
+      "id": 8
+    },
+    {
+      "name": "User 9",
+      "username": "user9",
+      "phoneNumber": "8830303986",
+      "email": "user9@example.com",
+      "address": "Address 9, City, State",
+      "password": "1234567",
+      "id": 9
+    },
+    {
+      "name": "User 10",
+      "username": "user10",
+      "phoneNumber": "8830303987",
+      "email": "user10@example.com",
+      "address": "Address 10, City, State",
+      "password": "1234567",
+      "id": 10
+    },
+    {
+      "name": "User 11",
+      "username": "user11",
+      "phoneNumber": "8830303988",
+      "email": "user11@example.com",
+      "address": "Address 11, City, State",
+      "password": "1234567",
+      "id": 11
+    },
+    {
+      "name": "User 12",
+      "username": "user12",
+      "phoneNumber": "8830303989",
+      "email": "user12@example.com",
+      "address": "Address 12, City, State",
+      "password": "1234567",
+      "id": 12
+    },
+    {
+      "name": "User 13",
+      "username": "user13",
+      "phoneNumber": "8830303990",
+      "email": "user13@example.com",
+      "address": "Address 13, City, State",
+      "password": "1234567",
+      "id": 13
+    },
+    {
+      "name": "User 14",
+      "username": "user14",
+      "phoneNumber": "8830303991",
+      "email": "user14@example.com",
+      "address": "Address 14, City, State",
+      "password": "1234567",
+      "id": 14
+    },
+    {
+      "name": "User 15",
+      "username": "user15",
+      "phoneNumber": "8830303992",
+      "email": "user15@example.com",
+      "address": "Address 15, City, State",
+      "password": "1234567",
+      "id": 15
+    },
+    {
+      "name": "User 16",
+      "username": "user16",
+      "phoneNumber": "8830303993",
+      "email": "user16@example.com",
+      "address": "Address 16, City, State",
+      "password": "1234567",
+      "id": 16
+    },
+    {
+      "name": "User 17",
+      "username": "user17",
+      "phoneNumber": "8830303994",
+      "email": "user17@example.com",
+      "address": "Address 17, City, State",
+      "password": "1234567",
+      "id": 17
+    },
+    {
+      "name": "User 18",
+      "username": "user18",
+      "phoneNumber": "8830303995",
+      "email": "user18@example.com",
+      "address": "Address 18, City, State",
+      "password": "1234567",
+      "id": 18
+    },
+    {
+      "name": "User 19",
+      "username": "user19",
+      "phoneNumber": "8830303996",
+      "email": "user19@example.com",
+      "address": "Address 19, City, State",
+      "password": "1234567",
+      "id": 19
+    },
+    {
+      "name": "User 20",
+      "username": "user20",
+      "phoneNumber": "8830303997",
+      "email": "user20@example.com",
+      "address": "Address 20, City, State",
+      "password": "1234567",
+      "id": 20
+    },
+    {
+      "name": "User 21",
+      "username": "user21",
+      "phoneNumber": "8830303998",
+      "email": "user21@example.com",
+      "address": "Address 21, City, State",
+      "password": "1234567",
+      "id": 21
+    },
+    {
+      "name": "User 22",
+      "username": "user22",
+      "phoneNumber": "8830303999",
+      "email": "user22@example.com",
+      "address": "Address 22, City, State",
+      "password": "1234567",
+      "id": 22
+    },
+    {
+      "name": "User 23",
+      "username": "user23",
+      "phoneNumber": "8830304000",
+      "email": "user23@example.com",
+      "address": "Address 23, City, State",
+      "password": "1234567",
+      "id": 23
+    },
+    {
+      "name": "User 24",
+      "username": "user24",
+      "phoneNumber": "8830304001",
+      "email": "user24@example.com",
+      "address": "Address 24, City, State",
+      "password": "1234567",
+      "id": 24
+    },
+    {
+      "name": "User 25",
+      "username": "user25",
+      "phoneNumber": "8830304002",
+      "email": "user25@example.com",
+      "address": "Address 25, City, State",
+      "password": "1234567",
+      "id": 25
+    },
+    {
+      "name": "User 26",
+      "username": "user26",
+      "phoneNumber": "8830304003",
+      "email": "user26@example.com",
+      "address": "Address 26, City, State",
+      "password": "1234567",
+      "id": 26
+    },
+    {
+      "name": "User 27",
+      "username": "user27",
+      "phoneNumber": "8830304004",
+      "email": "user27@example.com",
+      "address": "Address 27, City, State",
+      "password": "1234567",
+      "id": 27
+    },
+    {
+      "name": "User 28",
+      "username": "user28",
+      "phoneNumber": "8830304005",
+      "email": "user28@example.com",
+      "address": "Address 28, City, State",
+      "password": "1234567",
+      "id": 28
+    }
+  ],
+  "todos": [
+    {
+      "username": "Anurag",
+      "title": "hii",
+      "completed": false,
+      "id": 1
+    }
+  ]
+}
